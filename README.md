@@ -70,6 +70,16 @@ Browse the agents below and copy/adapt the ones you need!
 
 See the [Multi-Tool Integrations](#-multi-tool-integrations) section below for full details.
 
+### 🎬 Video Prompt Library Skill
+
+[`.claude/skills/opus-video-prompts`](.claude/skills/opus-video-prompts/SKILL.md) is a Claude Code skill with 703 proven prompts for videos built as code: motion graphics, 3D scenes, explainers and playable games. It loads automatically in Claude Code sessions in this repo. Ask for an animation or explainer, and Claude picks a matching prompt, adapts it to your brand and builds it, pairing with agents such as the Visual Storyteller or XR Immersive Developer. Search it directly with:
+
+```bash
+python3 .claude/skills/opus-video-prompts/scripts/find_prompt.py -c 3d -t threejs ocean
+```
+
+To use it in every project, copy the folder to `~/.claude/skills/`. Prompts come from [yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) (MIT).
+
 ---
 
 ## 🎨 The Agency Roster
