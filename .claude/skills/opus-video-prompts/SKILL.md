@@ -24,7 +24,7 @@ description: Library of 703 proven prompts for code-built videos (motion graphic
 1. **Find candidates.** Pick the category that matches the request and search it:
    ```bash
    python3 scripts/find_prompt.py -c explainer --full-only recipe
-   python3 scripts/find_prompt.py -t threejs -t shader ocean
+   python3 scripts/find_prompt.py -t threejs -t shader space
    python3 scripts/find_prompt.py --random -c motion --full-only
    ```
    Or skim the matching `references/<category>.md` file. Prefer entries without *(partial)*: partial ones are only the creator's post, so treat them as an idea, not a spec.
